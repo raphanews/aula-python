@@ -1,13 +1,13 @@
 #testando classe
 import unittest
 
-class MyFun1:
+class MyFun:
     def fun(self, n):
         return n + 1
 
 class MyFunTest(unittest.TestCase):
     def testFun(self):
-        obj = MyFun1()
+        obj = MyFun()
         self.assertEqual(obj.fun(3), 4)
 
 if __name__ == '__main__':
