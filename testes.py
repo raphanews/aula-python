@@ -1,3 +1,4 @@
+#testando classe
 import unittest
 
 class MyFun:
@@ -7,7 +8,7 @@ class MyFun:
 class MyFunTest(unittest.TestCase):
     def testFun(self):
         obj = MyFun()
-        self.assertEqual(obj.fun(3), 5)
+        self.assertEqual(obj.fun(3), 4)
 
 if __name__ == '__main__':
     unittest.main()
